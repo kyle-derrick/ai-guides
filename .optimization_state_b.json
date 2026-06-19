@@ -1,0 +1,37 @@
+{
+  "process_id": "B",
+  "book_order": [
+    "money"
+  ],
+  "book_dirs": {
+    "money": "/tmp/ai-guides/content/docs/money/"
+  },
+  "current_book_index": 0,
+  "current_file_index": 341,
+  "last_processed_file": "/tmp/ai-guides/content/docs/money/第11章_电商与跨境电商/核心技巧/02-二Listing优化技巧.md",
+  "last_processed_time": "2026-06-25T02:30:06.048856",
+  "total_processed": 341,
+  "errors": [
+    {
+      "file": "/tmp/ai-guides/content/docs/money/第08章_创业与副业.md",
+      "time": "2026-06-24T16:52:06.369353",
+      "error": "hermes exit code 130"
+    },
+    {
+      "file": "/tmp/ai-guides/content/docs/money/第10章_技术技能变现/核心技巧/07-七客户管理与长期发展.md",
+      "time": "2026-06-24T22:23:23.552419",
+      "error": "hermes exit code 1"
+    },
+    {
+      "file": "/tmp/ai-guides/content/docs/money/第10章_技术技能变现/核心技巧/08-八技术栈选择与市场分析.md",
+      "time": "2026-06-24T22:42:48.674213",
+      "error": "hermes exit code 1"
+    }
+  ],
+  "status": "interrupted",
+  "available_books": {
+    "hacker": "/tmp/ai-guides/content/docs/hacker/",
+    "engineering": "/tmp/ai-guides/content/docs/engineering/"
+  },
+  "interrupt_time": "2026-06-25T02:36:44.154545"
+}

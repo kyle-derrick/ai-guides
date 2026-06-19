@@ -1,0 +1,37 @@
+{
+  "process_id": "C",
+  "book_order": [
+    "communication"
+  ],
+  "book_dirs": {
+    "communication": "/tmp/ai-guides/content/docs/communication/"
+  },
+  "current_book_index": 0,
+  "current_file_index": 323,
+  "last_processed_file": "/tmp/ai-guides/content/docs/communication/13-第十二章-危机沟通/实战案例/03-案例三高管丑闻某科技公司CEO不当言论风波.md",
+  "last_processed_time": "2026-06-24T23:57:46.979242",
+  "total_processed": 323,
+  "errors": [
+    {
+      "file": "/tmp/ai-guides/content/docs/communication/09-第八章-情感沟通/07-深度拓展.md",
+      "time": "2026-06-24T16:52:07.528620",
+      "error": "hermes exit code 130"
+    },
+    {
+      "file": "/tmp/ai-guides/content/docs/communication/12-第十一章-跨文化沟通/核心技巧/07-六综合应用跨文化沟通的SMART原则.md",
+      "time": "2026-06-24T22:23:28.002897",
+      "error": "hermes exit code 1"
+    },
+    {
+      "file": "/tmp/ai-guides/content/docs/communication/12-第十一章-跨文化沟通/核心技巧/08-本节小结.md",
+      "time": "2026-06-24T22:42:04.499748",
+      "error": "hermes exit code 1"
+    }
+  ],
+  "status": "interrupted",
+  "available_books": {
+    "hacker": "/tmp/ai-guides/content/docs/hacker/",
+    "engineering": "/tmp/ai-guides/content/docs/engineering/"
+  },
+  "interrupt_time": "2026-06-25T00:05:41.574534"
+}

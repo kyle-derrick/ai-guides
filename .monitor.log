@@ -1,0 +1,135 @@
+[15:43:23] 重启Worker a
+[15:43:23] 重启Worker b
+[15:43:24] 重启Worker c
+[15:43:24] 重启Worker d
+[15:43:25] 重启Worker e
+[15:43:25] 重启Worker f
+[15:43:26] 重启Worker g
+[15:43:26] 重启Worker h
+[15:43:27] 重启Worker i
+[15:43:27] 重启Worker j
+[15:43:28] 重启Worker k
+[15:43:28] 重启Worker l
+[15:43:29] 重启Worker m
+[15:43:29] 重启Worker n
+[15:43:30] 重启Worker o
+[15:43:30] 重启Worker p
+[15:43:31] 重启Worker q
+[15:43:31] 重启Worker r
+[15:43:32] 重启Worker s
+[15:43:33] 重启Worker t
+[15:43:33] 0运行 + 20重启
+[15:49:15] 重启Worker a (was dead=0)
+[15:49:15] 重启Worker b (was dead=0)
+[15:49:16] 重启Worker c (was dead=0)
+[15:49:17] 重启Worker d (was dead=0)
+[15:49:17] 重启Worker e (was dead=0)
+[15:49:18] 重启Worker f (was dead=0)
+[15:49:18] 重启Worker g (was dead=0)
+[15:49:19] 重启Worker h (was dead=0)
+[15:49:19] 重启Worker i (was dead=0)
+[15:49:20] 重启Worker j (was dead=0)
+[15:49:20] 重启Worker k (was dead=0)
+[15:49:21] 重启Worker l (was dead=0)
+[15:49:21] 重启Worker m (was dead=0)
+[15:49:22] 重启Worker n (was dead=0)
+[15:49:22] 重启Worker o (was dead=0)
+[15:49:23] 重启Worker p (was dead=0)
+[15:49:23] 重启Worker q (was dead=0)
+[15:49:24] 重启Worker r (was dead=0)
+[15:49:24] 重启Worker s (was dead=0)
+[15:49:25] 重启Worker t (was dead=0)
+[15:49:25] 警告: claimed=40 > 20 workers，可能存在泄漏
+[15:49:25] 0运行 + 20重启 (dead=0) claimed=40
+[15:55:16] 重启Worker a (was dead=0)
+[15:55:17] 重启Worker b (was dead=0)
+[15:55:17] 重启Worker c (was dead=0)
+[15:55:18] 重启Worker d (was dead=0)
+[15:55:18] 重启Worker e (was dead=0)
+[15:55:19] 重启Worker f (was dead=0)
+[15:55:19] 重启Worker g (was dead=0)
+[15:55:20] 重启Worker h (was dead=0)
+[15:55:20] 重启Worker i (was dead=0)
+[15:55:21] 重启Worker j (was dead=0)
+[15:55:21] 重启Worker k (was dead=0)
+[15:55:22] 重启Worker l (was dead=0)
+[15:55:22] 重启Worker m (was dead=0)
+[15:55:23] 重启Worker n (was dead=0)
+[15:55:23] 重启Worker o (was dead=0)
+[15:55:24] 重启Worker p (was dead=0)
+[15:55:24] 重启Worker q (was dead=0)
+[15:55:25] 重启Worker r (was dead=0)
+[15:55:25] 重启Worker s (was dead=0)
+[15:55:26] 重启Worker t (was dead=0)
+[15:55:26] 警告: claimed=40 > 20 workers，可能存在泄漏
+[15:55:26] 0运行 + 20重启 (dead=0) claimed=40
+[16:02:16] 重启Worker a (was dead=0)
+[16:02:17] 重启Worker b (was dead=0)
+[16:02:17] 重启Worker c (was dead=0)
+[16:02:18] 重启Worker d (was dead=0)
+[16:02:18] 重启Worker e (was dead=0)
+[16:02:19] 重启Worker f (was dead=0)
+[16:02:19] 重启Worker g (was dead=0)
+[16:02:20] 重启Worker h (was dead=0)
+[16:02:20] 重启Worker i (was dead=0)
+[16:02:21] 重启Worker j (was dead=0)
+[16:02:21] 重启Worker k (was dead=0)
+[16:02:22] 重启Worker l (was dead=0)
+[16:02:22] 重启Worker m (was dead=0)
+[16:02:23] 重启Worker n (was dead=0)
+[16:02:23] 重启Worker o (was dead=0)
+[16:02:24] 重启Worker p (was dead=0)
+[16:02:24] 重启Worker q (was dead=0)
+[16:02:25] 重启Worker r (was dead=0)
+[16:02:25] 重启Worker s (was dead=0)
+[16:02:26] 重启Worker t (was dead=0)
+[16:02:26] 警告: claimed=21 > 20 workers，可能存在泄漏
+[16:02:26] 0运行 + 20重启 (dead=0) claimed=21
+[16:09:15] 重启Worker a (was dead=0)
+[16:09:16] 重启Worker b (was dead=0)
+[16:09:16] 重启Worker c (was dead=0)
+[16:09:17] 重启Worker d (was dead=0)
+[16:09:17] 重启Worker e (was dead=0)
+[16:09:18] 重启Worker f (was dead=0)
+[16:09:18] 重启Worker g (was dead=0)
+[16:09:19] 重启Worker h (was dead=0)
+[16:09:19] 重启Worker i (was dead=0)
+[16:09:20] 重启Worker j (was dead=0)
+[16:09:21] 重启Worker k (was dead=0)
+[16:09:21] 重启Worker l (was dead=0)
+[16:09:22] 重启Worker m (was dead=0)
+[16:09:22] 重启Worker n (was dead=0)
+[16:09:23] 重启Worker o (was dead=0)
+[16:09:23] 重启Worker p (was dead=0)
+[16:09:24] 重启Worker q (was dead=0)
+[16:09:24] 重启Worker r (was dead=0)
+[16:09:25] 重启Worker s (was dead=0)
+[16:09:25] 重启Worker t (was dead=0)
+[16:09:26] 0运行 + 20重启 (dead=0) claimed=20
+[16:13:20] 重启Worker a (was dead=0)
+[16:13:21] 重启Worker b (was dead=0)
+[16:13:21] 重启Worker c (was dead=0)
+[16:13:22] 重启Worker d (was dead=0)
+[16:13:22] 重启Worker e (was dead=0)
+[16:13:23] 重启Worker f (was dead=0)
+[16:13:23] 重启Worker g (was dead=0)
+[16:13:24] 重启Worker h (was dead=0)
+[16:13:24] 重启Worker i (was dead=0)
+[16:13:25] 重启Worker j (was dead=0)
+[16:13:25] 重启Worker k (was dead=0)
+[16:13:26] 重启Worker l (was dead=0)
+[16:13:26] 重启Worker m (was dead=0)
+[16:13:27] 重启Worker n (was dead=0)
+[16:13:27] 重启Worker o (was dead=0)
+[16:13:28] 重启Worker p (was dead=0)
+[16:13:28] 重启Worker q (was dead=0)
+[16:13:29] 重启Worker r (was dead=0)
+[16:13:29] 重启Worker s (was dead=0)
+[16:13:30] 重启Worker t (was dead=0)
+[16:13:30] 0运行 + 20重启 (dead=0) claimed=20
+[00:58:17] 重启Worker h (PID=1983063)
+[00:58:17] 重启Worker k (PID=1983165)
+[00:58:18] 重启Worker n (PID=1983248)
+[00:58:18] 重启Worker p (PID=1983344)
+[00:58:19] 重启Worker s (PID=1983442)
+[00:58:19] 15运行 + 5重启

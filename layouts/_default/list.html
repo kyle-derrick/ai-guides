@@ -1,0 +1,28 @@
+{{ define "main" }}
+<article>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    
+    {{- if .Sections }}
+    <div class="book-card">
+        <h2>📂 章节目录</h2>
+        <ul>
+            {{- range .Sections }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{- end }}
+        </ul>
+    </div>
+    {{- end }}
+    
+    {{- if .RegularPages }}
+    <div class="book-card">
+        <h2>📄 文档列表</h2>
+        <ul>
+            {{- range .RegularPages }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{- end }}
+        </ul>
+    </div>
+    {{- end }}
+</article>
+{{ end }}

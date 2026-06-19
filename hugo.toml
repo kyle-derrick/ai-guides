@@ -1,0 +1,26 @@
+baseURL = 'https://kyle-derrick.github.io/ai-guides/'
+languageCode = 'zh-cn'
+title = 'AI 指南集'
+
+enableRobotsTXT = true
+enableGitInfo = true
+
+[params]
+  description = "五本全面、深入、实用的专业指南，涵盖沟通、提升、财富、安全、工程五大领域"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = 'monokai'
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+
+[markup.goldmark.extensions]
+  typographer = false

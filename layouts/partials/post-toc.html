@@ -1,0 +1,49 @@
+{{- /* 递归树形导航 partial */ -}}
+{{- define "tree-nav" -}}
+{{- $section := .section -}}
+{{- $currentPage := .currentPage -}}
+{{- $hasChildren := false -}}
+{{- if $section.Sections }}{{ $hasChildren = true }}{{ end -}}
+{{- if $section.RegularPages }}{{ $hasChildren = true }}{{ end -}}
+{{- $isCurrentSection := eq $currentPage.RelPermalink $section.RelPermalink -}}
+{{- $isAncestor := in $currentPage.RelPermalink $section.RelPermalink -}}
+{{- if $hasChildren -}}
+<li class="tree-folder{{ if $isAncestor }} tree-expanded{{ end }}">
+    <div class="tree-folder-header">
+        <span class="tree-toggle">
+            <svg class="tree-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="12" height="12">
+                <polyline points="9 18 15 12 9 6"/>
+            </svg>
+        </span>
+        <a href="{{ $section.Permalink }}" class="tree-folder-name{{ if $isCurrentSection }} tree-current{{ end }}">{{ $section.Title }}</a>
+    </div>
+    <ul class="tree-list tree-children">
+        {{- range $page := $section.RegularPages -}}
+        {{- $isCurrentPage := eq $currentPage.RelPermalink $page.RelPermalink -}}
+        <li class="tree-page{{ if $isCurrentPage }} tree-current{{ end }}">
+            <a href="{{ $page.Permalink }}" title="{{ $page.Title }}">{{ $page.Title }}</a>
+        </li>
+        {{- end -}}
+        {{- range $child := $section.Sections -}}
+        {{- template "tree-nav" (dict "section" $child "currentPage" $currentPage) -}}
+        {{- end -}}
+    </ul>
+</li>
+{{- else -}}
+{{- /* 纯叶子 section，无子 section 也无子页面 */ -}}
+<li class="tree-page{{ if $isCurrentSection }} tree-current{{ end }}">
+    <a href="{{ $section.Permalink }}" title="{{ $section.Title }}">{{ $section.Title }}</a>
+</li>
+{{- end -}}
+{{- end -}}
+
+{{- /* 入口：遍历 /docs 下的所有顶级 section */ -}}
+{{- $currentPage := . -}}
+{{- $docsSection := .Site.GetPage "/docs" -}}
+{{- if $docsSection -}}
+<ul class="tree-list tree-root">
+    {{- range $book := $docsSection.Sections -}}
+    {{- template "tree-nav" (dict "section" $book "currentPage" $currentPage) -}}
+    {{- end -}}
+</ul>
+{{- end -}}

@@ -1,0 +1,27 @@
+{
+  "process_id": "A",
+  "book_order": [
+    "personal"
+  ],
+  "book_dirs": {
+    "personal": "/tmp/ai-guides/content/docs/personal/"
+  },
+  "current_book_index": 0,
+  "current_file_index": 360,
+  "last_processed_file": "/tmp/ai-guides/content/docs/personal/15-第十四章-健康养生/基础理论/08-八现代健康科学前沿.md",
+  "last_processed_time": "2026-06-24T21:48:44.459421",
+  "total_processed": 360,
+  "errors": [
+    {
+      "file": "/tmp/ai-guides/content/docs/personal/13-第十二章-职业发展/基础理论/04-四职场竞争力模型.md",
+      "time": "2026-06-24T16:52:06.690899",
+      "error": "hermes exit code 130"
+    }
+  ],
+  "status": "interrupted",
+  "available_books": {
+    "hacker": "/tmp/ai-guides/content/docs/hacker/",
+    "engineering": "/tmp/ai-guides/content/docs/engineering/"
+  },
+  "interrupt_time": "2026-06-24T21:51:52.898205"
+}

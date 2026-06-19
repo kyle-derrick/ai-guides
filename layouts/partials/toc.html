@@ -1,0 +1,19 @@
+{{- /* 右侧目录 - 提取当前页面的 h2/h3 标题，使用实际的 heading id */ -}}
+{{- $headers := findRE `<h[23][^>]*id="([^"]*)"[^>]*>(.*?)</h[23]>` .Content -}}
+{{- if $headers }}
+<ul class="toc-list">
+    {{- range $header := $headers }}
+    {{- $id := index (findRE `id="([^"]*)"` $header 1) 0 | default "" }}
+    {{- $id = replaceRE `id="([^"]*)"` "$1" $id }}
+    {{- $text := replaceRE `<[^>]*>` "" $header }}
+    {{- $isH3 := findRE `<h3` $header }}
+    {{- if $id }}
+    <li class="{{ if $isH3 }}toc-h3{{ end }}">
+        <a href="#{{ $id }}">{{ $text }}</a>
+    </li>
+    {{- end }}
+    {{- end }}
+</ul>
+{{- else }}
+<p style="color: var(--text-secondary); font-size: 0.85em;">暂无目录</p>
+{{- end }}

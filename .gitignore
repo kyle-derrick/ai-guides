@@ -1,0 +1,32 @@
+
+# Hugo
+public/
+resources/_gen/
+.hugo_build.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Worker system
+.worker_*.log
+.worker_*.lock
+.worker_*.heartbeat
+.worker_pids/
+work_queue.db
+.queue_progress.log
+.optimize_prompt.txt
+eng_progress.py
+start_workers.sh
+kill_all.sh
+nuke_workers.sh
+report.py
+monitor.sh
+worker.sh
+QUALITY_CHECK_REPORT.md

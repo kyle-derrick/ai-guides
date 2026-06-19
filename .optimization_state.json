@@ -1,0 +1,22 @@
+{
+  "book_order": [
+    "personal",
+    "communication",
+    "money",
+    "hacker",
+    "engineering"
+  ],
+  "book_dirs": {
+    "personal": "/tmp/ai-guides/content/docs/personal/",
+    "communication": "/tmp/ai-guides/content/docs/communication/",
+    "money": "/tmp/ai-guides/content/docs/money/",
+    "hacker": "/tmp/ai-guides/content/docs/hacker/",
+    "engineering": "/tmp/ai-guides/content/docs/engineering/"
+  },
+  "current_book_index": 0,
+  "current_file_index": 13,
+  "last_processed_file": "/tmp/ai-guides/content/docs/personal/02-第一章-护肤/产品推荐/03-三精华液推荐.md",
+  "last_processed_time": "2026-06-23T23:59:49.366618",
+  "total_processed": 13,
+  "errors": []
+}
